@@ -18,7 +18,7 @@ conn = mysql.connector.connect(
     host = "your_host",        # e.g., "localhost"
     user = "your_username",    # e.g., "root"
     password = "your_password",
-    database = "website_data"
+    database = "your_database_name"
 )
 
 # Initialize cursor to interact with the database
