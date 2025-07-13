@@ -65,7 +65,7 @@ python backend/insert_images.py
 
 ## 📸 Database Diagram
 
-![Database Structure](database/database_structure.png)
+![Database Structure](database/Database_Structure.png)
 
 ---
 
