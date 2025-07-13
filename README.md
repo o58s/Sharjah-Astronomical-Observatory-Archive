@@ -8,21 +8,21 @@ This repository contains the backend and database structure for the **Astronomic
 ## 📂 Repository Structure
 
 ```
-astronomy-image-archive/
+Sharjah-Astronomical-Observatory-Archive/
 │
 ├── backend/
 │   └── insert_images.py           # Script to insert image metadata into MySQL database (⚠️ Do not commit sensitive data)
 │
 ├── database/
 │   ├── script.sql                 # MySQL script for creating the database schema
-│   └── database_structure.png     # Visual diagram of the database structure
+│   └── database structure.png     # Visual diagram of the database structure
 │
-├── docs/
-│   └── database_design.md         # Non-technical explanation of the database schema
+|
+│   
 │
 ├── LICENSE                        # MIT License information
 ├── README.md                      # You are here
-├── .gitignore                     # Git ignored files list
+|
 ```
 
 ---
@@ -33,7 +33,7 @@ The database is designed to store and retrieve astronomical images categorized b
 
 * **Category**: Solar System or Deep Sky
 * **Subcategory**: Specific types like Planets, Stars, Nebulae, etc.
-* **Object**: The name of the celestial body (e.g., Mars, Sun, Andromeda)
+* **Object**: The name of the celestial body (e.g., Mars, Sun, M57)
 * **Image**: File path, file name, and date of observation
 
 ### 💾 Tables Defined:
